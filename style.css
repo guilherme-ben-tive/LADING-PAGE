@@ -2,15 +2,16 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0d1117;
-  color: #f0f6fc;
+  background-color: #0a0a23;
+  color: #e0e7ff;
   scroll-behavior: smooth;
 }
 
 header {
-  background-color: #161b22;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
   padding: 2rem;
   text-align: center;
+  color: #ffffff;
 }
 
 header h1 {
@@ -21,7 +22,7 @@ header h1 {
 header blockquote {
   margin-top: 1rem;
   font-style: italic;
-  color: #8b949e;
+  color: #c7d2fe;
 }
 
 main {
@@ -35,8 +36,8 @@ section {
 }
 
 h2 {
-  color: #58a6ff;
-  border-bottom: 2px solid #30363d;
+  color: #8b5cf6;
+  border-bottom: 2px solid #4f46e5;
   padding-bottom: 0.5rem;
 }
 
@@ -46,10 +47,11 @@ ul {
 }
 
 .projeto {
-  background-color: #161b22;
+  background-color: #1e1b4b;
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 8px;
+  color: #e0e7ff;
 }
 
 .projeto img {
@@ -61,16 +63,16 @@ ul {
 }
 
 #contato a {
-  color: #58a6ff;
+  color: #7dd3fc;
   text-decoration: none;
 }
 
 footer {
-  background-color: #161b22;
+  background-color: #312e81;
   text-align: center;
   padding: 1rem;
   font-size: 0.875rem;
-  color: #8b949e;
+  color: #c7d2fe;
 }
 
 .fade-in {
@@ -82,4 +84,11 @@ footer {
 .fade-in.visible {
   opacity: 1;
   transform: none;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  border-radius: 12px;
+  padding: 1rem;
+  color: #ffffff;
 }
