@@ -1,150 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guilherme Mota dos Santos - Portfólio</title>
+  <title>Guilherme Mota dos Santos</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #0d1117;
-      color: #f0f6fc;
-      scroll-behavior: smooth;
-    }
-    header {
-      background-color: #161b22;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header blockquote {
-      margin-top: 1rem;
-      font-style: italic;
-      color: #8b949e;
-    }
-    main {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    h2 {
-      color: #58a6ff;
-      border-bottom: 2px solid #30363d;
-      padding-bottom: 0.5rem;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    .projeto {
-      background-color: #161b22;
-      padding: 1rem;
-      margin-top: 1rem;
-      border-radius: 8px;
-    }
-    .projeto img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      border-radius: 4px;
-      margin-top: 1rem;
-    }
-    #contato a {
-      color: #58a6ff;
-      text-decoration: none;
-    }
-    footer {
-      background-color: #161b22;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.875rem;
-      color: #8b949e;
-    }
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
-    .fade-in.visible {
-      opacity: 1;
-      transform: none;
-    }
-  </style>
 </head>
 <body>
   <header>
     <h1>Guilherme Mota dos Santos</h1>
-    <p>Computação Gráfica</p>
-    <blockquote>"Na computação, a arte é livre."</blockquote>
+    <blockquote>Na computação, a arte é livre.</blockquote>
   </header>
-
+  
   <main>
-    <section id="sobre" class="fade-in">
+    <section class="fade-in" id="sobre">
       <h2>Sobre Mim</h2>
-      <p>Sou Guilherme Mota dos Santos, apaixonado por tecnologia com foco especial em computação gráfica. Gosto de criar interfaces visuais funcionais e bonitas, e estou sempre em busca de aprender novas tecnologias.</p>
+      <p>Sou estudante e entusiasta de computação gráfica. Gosto de criar interfaces visuais que sejam funcionais e bonitas, e adoro aprender novas tecnologias.</p>
       <ul>
         <li><strong>Pontos fortes:</strong> Criatividade, atenção aos detalhes, facilidade para aprender.</li>
         <li><strong>Tecnologias:</strong> HTML, CSS, JavaScript, Git, Figma.</li>
       </ul>
     </section>
 
-    <section id="projetos" class="fade-in">
+    <section class="fade-in" id="projetos">
       <h2>Projetos</h2>
 
       <div class="projeto">
-        <h3>Galeria Interativa em WebGL</h3>
-        <p>Uma galeria 3D feita com HTML, CSS e JavaScript utilizando a biblioteca Three.js. O objetivo foi criar um espaço virtual para exibir imagens e objetos em 3D de forma interativa.</p>
-        <p><strong>Aprendizado:</strong> Fundamentos de computação gráfica, manipulação de câmera, luz e objetos tridimensionais no navegador.</p>
-        <p><strong>Participação:</strong> Projeto individual.</p>
-        <img src="galeria-webgl.jpg" alt="Mockup da Galeria Interativa">
+        <h3>Ilustração Vetorial</h3>
+        <p>Criação de uma arte vetorial baseada em referência de personagem, utilizando ferramentas de desenho digital.</p>
+        <p><strong>Participação:</strong> Individual</p>
+        <img src="img/ilustracao.jpg" alt="Ilustração Vetorial">
       </div>
 
       <div class="projeto">
-        <h3>Editor de Imagens com Filtros CSS</h3>
-        <p>Um mini-editor de imagens feito em HTML, CSS e JavaScript, onde o usuário pode aplicar filtros como saturação, brilho, contraste e desfoque em tempo real.</p>
-        <p><strong>Aprendizado:</strong> Manipulação de estilos com JavaScript, uso criativo de filtros CSS.</p>
-        <p><strong>Participação:</strong> Projeto em grupo com Maria Souza.</p>
-        <img src="editor-imagem.jpg" alt="Imagem do editor de imagens com filtros">
+        <h3>Interface de Jogo 2D</h3>
+        <p>Design de interface gráfica para um jogo 2D com foco em experiência do usuário e identidade visual.</p>
+        <p><strong>Participação:</strong> Em grupo com Maria Souza</p>
+        <img src="img/Captura de tela 2025-06-10 161558.png" alt="Interface de Jogo 2D">
       </div>
     </section>
 
-    <section id="contato" class="fade-in">
+    <section class="fade-in" id="contato">
       <h2>Contato</h2>
-      <p><strong>WhatsApp:</strong> <a id="btnWhats" href="https://wa.me/5511999999999" target="_blank">Clique para conversar</a></p>
-      <p><strong>Email:</strong> joao@email.com</p>
-      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/joaosilva" target="_blank">linkedin.com/in/joaosilva</a></p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/joaosilva" target="_blank">github.com/joaosilva</a></p>
+      <p>Telefone (WhatsApp): <a id="btnWhats" href="#" target="_blank">Clique aqui para falar comigo</a></p>
+      <p>Email: <a href="mailto:joao@email.com">joao@email.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/joaosilva" target="_blank">linkedin.com/in/joaosilva</a></p>
+      <p>GitHub: <a href="https://github.com/joaosilva" target="_blank">github.com/joaosilva</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Guilherme Mota dos Santos</p>
+    <p>&copy; 2025 Guilherme Mota dos Santos. Todos os direitos reservados.</p>
   </footer>
 
-  <script>
-    const numero = "5511999999999";
-    document.getElementById("btnWhats").href = `https://wa.me/${numero}`;
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, {
-      threshold: 0.1
-    });
-
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
