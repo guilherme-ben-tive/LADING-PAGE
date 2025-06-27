@@ -60,10 +60,10 @@ ul {
   width: 100%;
   height: auto;
   max-width: 100%;
-  object-fit: contain; /* mostra a imagem inteira sem cortar */
+  object-fit: contain;
   border-radius: 8px;
   margin-top: 1rem;
-  background-color: #0a0a23; /* fundo escuro para imagens menores */
+  background-color: #0a0a23;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -100,4 +100,73 @@ footer {
   border-radius: 12px;
   padding: 1rem;
   color: #ffffff;
+}
+
+/* ---------------- BOLHAS ROXAS ANIMADAS ---------------- */
+
+.bubbles-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 50%;
+  animation: rise 10s linear infinite;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+.bubble:nth-child(1) {
+  left: 5%;
+  width: 15px;
+  height: 15px;
+  animation-duration: 6s;
+  animation-delay: 0s;
+}
+.bubble:nth-child(2) {
+  left: 95%;
+  width: 20px;
+  height: 20px;
+  animation-duration: 7s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(3) {
+  left: 10%;
+  width: 10px;
+  height: 10px;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+.bubble:nth-child(4) {
+  left: 90%;
+  width: 18px;
+  height: 18px;
+  animation-duration: 9s;
+  animation-delay: 1.5s;
+}
+.bubble:nth-child(5) {
+  left: 15%;
+  width: 12px;
+  height: 12px;
+  animation-duration: 8s;
+  animation-delay: 0.5s;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.2);
+    opacity: 0;
+  }
 }
